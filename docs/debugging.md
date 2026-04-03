@@ -15,7 +15,7 @@ A breakpoint was set inside the `test_internet_speed()` function to verify:
 - Object structure of the Speedtest instance  
 
 **Screenshot:**  
-`/docs/images/debug_speedtest.png`
+![SpeedTest](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_breakpoint.png)
 
 ---
 
