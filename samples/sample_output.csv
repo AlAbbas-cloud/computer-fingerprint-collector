@@ -1,1 +1,4 @@
-Content Coming soon.
+computer_name,ip_address,mac_address,processor_model,operating_system,system_time,internet_speed,active_ports,unique_id
+Esther2024,192.168.0.101,D8:CB:8A:D0:E7:81,"Intel64 Family 6 Model 60 Stepping 3, GenuineIntel","Windows 10","2025-06-08 20:05:00","26Mb/s","Listening:33; Established:70; Total:496","31AB181C-E47D-11E5-B49E-43EEF6FF1700"
+kali,127.0.1.1,00:0C:29:43:26:24,"AMD64 Processor (VM)","Linux 6.12.13-amd64","2025-06-08 06:23:00","Skipped","Listening:0; Established:0; Total:0","564daad0-c008-d523-e570-853c36432624"
+Esther-PC,192.168.1.149,8C:C8:4B:0E:65:9A,"AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD","Windows 11","2025-06-08 21:36:00","26Mb/s","Listening:22; Established:53; Total:348","57C8F6B2-DA87-748D-EDB2-DE9D78CF9C1E"
