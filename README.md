@@ -41,24 +41,14 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 
 ## Repository Structure
 
-computer-fingerprint-collector/
-│
-├── src/
-│   └── computer_fingerprint_collector.py
-│
-├── docs/
-│   ├── pseudocode.md
-│   ├── requirements.md
-│   ├── debugging.md
-│   └── images/
-│       ├── debug_speedtest.png
-│       ├── debug_callstack.png
-│       ├── debug_systeminfo.png
-│       ├── debug_justmycode.png
-│       └── debug_live.png
-│
-├── samples/
-│   └── sample_output.csv
-│
-└── README.md
+- [src/](src/)  
+- [docs/](docs/)  
+  - [pseudocode.md](docs/pseudocode.md)  
+  - [requirements.md](docs/requirements.md)  
+  - [debugging.md](docs/debugging.md)  
+  - [images/](docs/images/)  
+- [samples/](samples/)  
+  - [sample_output.csv](samples/sample_output.csv)  
+- [README.md](README.md)
+
 
