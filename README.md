@@ -1,8 +1,3 @@
-/ |  _ __  _ __   ___  | | _ __ ___  | | ___  _ __
-| |   / _ \| ' \| ' \ / _ \/ | | '/ _ \/ | / _ \| '|
-| || () | | | | | | |  /\ \ || | |  / (| || () | |
-\____\/|| ||| ||\||/\||  \|\|\\_/||
-
 # Computer Fingerprint Collector  
 ### Cross‑Platform System & Network Information Automation Script
 
@@ -106,7 +101,7 @@ Each run appends a new row containing:
 
 ## Script Flow Diagram (Mermaid)
 
-```Mermaid
+```mermaid
 flowchart TD
 
     A([main]) --> B["Collect System Info<br/>get_system_info()"]
