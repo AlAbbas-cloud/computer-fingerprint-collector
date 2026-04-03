@@ -1,4 +1,4 @@
-# Pseudocode — Computer Fingerprint Collector
+# Pseudocode - Computer Fingerprint Collector
 
 This document contains the full pseudocode and logic explanation for the Computer Fingerprint Collector script.  
 It follows a clear, language‑independent structure and aligns with the final approved solution.
