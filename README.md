@@ -36,7 +36,7 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 - [src/](src/)  
 - [docs/](docs/)  
@@ -44,6 +44,8 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
   - [requirements.md](docs/requirements.md)  
   - [debugging.md](docs/debugging.md)  
   - [images/](docs/images/)  
+- [report/](report/)  
+  - [automation_report.md](report/automation_report.md)  
 - [samples/](samples/)  
   - [sample_output.csv](samples/sample_output.csv)  
 - [README.md](README.md)
@@ -155,7 +157,7 @@ This includes:
 - **Pseudocode:** [/docs/pseudocode.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/pseudocode.md)
 - **Requirements:** [/docs/requirements.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/requirements.md)
 - **Debugging:** [/docs/debugging.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/debugging.md)
-
+- **Automation Report:** [report/automation_report.md](report/automation_report.md) 
 ---
 
 ## Status
