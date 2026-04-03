@@ -1,4 +1,4 @@
-# 🐞 Debugging Report — Computer Fingerprint Collector
+# 🐞 Debugging Report - Computer Fingerprint Collector
 
 This document records the debugging process used during development of the Computer Fingerprint Collector script.  
 All debugging was performed using **Visual Studio Code** with the Python extension.
