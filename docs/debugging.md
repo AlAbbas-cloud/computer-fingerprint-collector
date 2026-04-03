@@ -31,7 +31,7 @@ During execution, the debugger displayed:
 This confirmed correct function flow and validated intermediate values.
 
 **Screenshot:**  
-`/docs/images/debug_callstack.png`
+![Call-Stack](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_callstack.png)
 
 ---
 
@@ -52,7 +52,7 @@ Debugging verified:
 - Error handling for missing interfaces  
 
 **Screenshot:**  
-`/docs/images/debug_systeminfo.png`
+![SysInfo](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_systeminfo.png)
 
 ---
 
@@ -66,7 +66,7 @@ The debugger was paused inside the speed test function to inspect:
 - Impact of `justMyCode` setting  
 
 **Screenshot:**  
-`/docs/images/debug_justmycode.png`
+![Speed-test](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_speedtest.png)
 
 ---
 
@@ -79,7 +79,7 @@ A live session confirmed:
 - Sanitisation and validation functions behaved as expected  
 
 **Screenshot:**  
-`/docs/images/debug_live.png`
+![JustMyCode](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_justmycode.png)
 
 ---
 
