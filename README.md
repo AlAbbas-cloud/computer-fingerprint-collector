@@ -98,7 +98,7 @@ Each run appends a new row containing:
 
 ---
 
-## Script Flow Diagram (Mermaid)
+## Script Flow Diagram
 
 ```mermaid
 flowchart TD
@@ -139,9 +139,8 @@ A sample CSV output from real test runs on Windows 10, Windows 11, and Linux is 
 ## Debugging Documentation
 Full debugging notes and screenshots are available in:
 
-```Code
-/docs/debugging.md
-```
+[/docs/debugging.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/debugging.md)
+
 This includes:
 
 - Breakpoints
