@@ -5,7 +5,7 @@ It follows a clear, language‑independent structure and aligns with the final a
 
 ---
 
-## Script Architecture (Mermaid)
+## Script Architecture
 ```mermaid
 flowchart TD
 
