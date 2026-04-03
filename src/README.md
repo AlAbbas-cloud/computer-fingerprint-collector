@@ -54,15 +54,14 @@ Each run appends a new entry containing:
 
 ---
 
-## Script Flow Diagram
-## 🔄 Script Flow Diagram (Mermaid)
+## Script Flow Diagram (Mermaid)
 
 ```mermaid
 flowchart TD
 
-    A[Start Program] --> B[Collect System Information<br/>- Computer name<br/>- OS & version<br/>- Processor model<br/>- System time]
+    A([Start Program]) --> B[Collect System Information<br/>• Computer name<br/>• OS & version<br/>• Processor model<br/>• System time]
 
-    B --> C[Collect Network Information<br/>- IP address<br/>- MAC address<br/>- Active ports]
+    B --> C[Collect Network Information<br/>• IP address<br/>• MAC address<br/>• Active ports]
 
     C --> D[Test Internet Speed]
 
@@ -78,5 +77,5 @@ flowchart TD
     H --> J[Print Success Message]
     I --> J[Print Success Message]
 
-    J --> K[End]
-```
+    J --> K([End])
+
