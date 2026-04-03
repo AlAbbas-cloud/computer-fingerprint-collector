@@ -130,9 +130,7 @@ flowchart TD
 ## Sample Output
 A sample CSV output from real test runs on Windows 10, Windows 11, and Linux is available in:
 
-```Code
-/samples/sample_output.csv
-```
+[/samples/sample_output.csv](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/samples/sample_output.csv)
 
 ---
 
@@ -154,9 +152,9 @@ This includes:
 
 ## Documentation
 
-- **Pseudocode:** /docs/pseudocode.md
-- **Requirements:** /docs/requirements.md
-- **Debugging:** /docs/debugging.md
+- **Pseudocode:** [/docs/pseudocode.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/pseudocode.md)
+- **Requirements:** [/docs/requirements.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/requirements.md)
+- **Debugging:** [/docs/debugging.md](https://github.com/AlAbbas-cloud/computer-fingerprint-collector/blob/main/docs/debugging.md)
 
 ---
 
