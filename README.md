@@ -19,6 +19,8 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 - [Status](#️-status)
 - [Author](#-author)
 
+---
+
 ## Features
 
 - Collects detailed **system information**  
@@ -125,3 +127,54 @@ flowchart TD
     J --> L([End])
     K --> L([End])
 ```
+
+---
+
+## Sample Output
+A sample CSV output from real test runs on Windows 10, Windows 11, and Linux is available in:
+
+```Code
+/samples/sample_output.csv
+```
+
+---
+
+## Debugging Documentation
+Full debugging notes and screenshots are available in:
+
+```Code
+/docs/debugging.md
+```
+This includes:
+
+- Breakpoints
+- Call stack analysis
+- Watch expressions
+- Speedtest debugging
+- System info function debugging
+- justMyCode deep debugging
+
+---
+
+## Documentation
+
+- **Pseudocode:** /docs/pseudocode.md
+- **Requirements:** /docs/requirements.md
+- **Debugging:** /docs/debugging.md
+
+---
+
+## Status
+This project is complete and meets all requirements for:
+
+- Midtown IT Automation Assessment
+- Cross‑platform compatibility
+- Defensive coding standards
+- Professional documentation
+
+---
+
+## Author
+**Ali Abbas**
+Cybersecurity & Automation Student
+TAFE Queensland
