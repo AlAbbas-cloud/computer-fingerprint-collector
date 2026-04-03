@@ -8,16 +8,16 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 
 ## 📑 Table of Contents
 
-- [Project Overview](#️-computer-fingerprint-collector)
-- [Features](#-features)
-- [Repository Structure](#-repository-structure)
-- [How to Run](#️-how-to-run-the-script)
-- [Script Flow Diagram](#-script-flow-diagram-mermaid)
-- [Sample Output](#-sample-output)
-- [Debugging Documentation](#-debugging-documentation)
-- [Documentation](#-documentation)
-- [Status](#️-status)
-- [Author](#-author)
+- [Project Overview](#computer-fingerprint-collector)
+- [Features](#features)
+- [Repository Structure](#repository-structure)
+- [How to Run](#how-to-run-the-script)
+- [Script Flow Diagram](#script-flow-diagram-mermaid)
+- [Sample Output](#sample-output)
+- [Debugging Documentation](#debugging-documentation)
+- [Documentation](#documentation)
+- [Status](#status)
+- [Author](#author)
 
 ---
 
