@@ -55,61 +55,28 @@ Each run appends a new entry containing:
 ---
 
 ## Script Flow Diagram
-+------------------------------------------------------+
-|                START PROGRAM                         |
-+------------------------------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Collect System Information    |
-        | - Computer name               |
-        | - OS & version                |
-        | - Processor model             |
-        | - System time                 |
-        +-------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Collect Network Information   |
-        | - IP address                  |
-        | - MAC address                 |
-        | - Active ports                |
-        +-------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Test Internet Speed           |
-        +-------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Get Unique Computer ID        |
-        +-------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Validate & Sanitise Data      |
-        +-------------------------------+
-                      |
-                      v
-        +-------------------------------+
-        | Does CSV File Exist?          |
-        +-------------------------------+
-             |                     |
-             | Yes                 | No
-             v                     v
- +---------------------+   +------------------------+
- | Append to CSV File  |   | Create CSV + Write Row |
- +---------------------+   +------------------------+
-             \             /
-              \           /
-               \         /
-                v       v
-        +-------------------------------+
-        | Print Success Message         |
-        +-------------------------------+
-                      |
-                      v
-              +----------------+
-              |     END        |
-              +----------------+
+## 🔄 Script Flow Diagram (Mermaid)
+
+```mermaid
+flowchart TD
+
+    A[Start Program] --> B[Collect System Information<br/>- Computer name<br/>- OS & version<br/>- Processor model<br/>- System time]
+
+    B --> C[Collect Network Information<br/>- IP address<br/>- MAC address<br/>- Active ports]
+
+    C --> D[Test Internet Speed]
+
+    D --> E[Get Unique Computer ID]
+
+    E --> F[Validate & Sanitise Data]
+
+    F --> G{Does CSV File Exist?}
+
+    G -->|Yes| H[Append to CSV File]
+    G -->|No| I[Create CSV File<br/>+ Write First Row]
+
+    H --> J[Print Success Message]
+    I --> J[Print Success Message]
+
+    J --> K[End]
+```
