@@ -66,7 +66,7 @@ The debugger was paused inside the speed test function to inspect:
 - Impact of `justMyCode` setting  
 
 **Screenshot:**  
-![Speed-test](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_speedtest.png)
+![Speed-test](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_justmycode.png)
 
 ---
 
@@ -79,7 +79,7 @@ A live session confirmed:
 - Sanitisation and validation functions behaved as expected  
 
 **Screenshot:**  
-![JustMyCode](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_justmycode.png)
+![JustMyCode](https://raw.githubusercontent.com/AlAbbas-cloud/computer-fingerprint-collector/refs/heads/main/docs/images/debug_speedtest.png)
 
 ---
 
