@@ -54,22 +54,20 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 
 This script collects system and network information and saves the results into a CSV file.
 
-### **1. Requirements**
+**1. Requirements**
 - Python 3.x  
 - No third‑party libraries  
 - Permission to run Python scripts  
 
----
-
-### **2. Download or Clone the Repository**
+**2. Download or Clone the Repository**
 
 ```bash
 git clone https://github.com/AlAbbas-cloud/computer-fingerprint-collector.git
 cd computer-fingerprint-collector/src
 ```
----
 
-### **3. Run the Script**
+**3. Run the Script**
+
 **Windows**
 ```bash
 python computer_fingerprint_collector.py
@@ -78,7 +76,6 @@ python computer_fingerprint_collector.py
 ```bash
 python3 computer_fingerprint_collector.py
 ```
----
 
 ### **4. Output Location**
 A file named:
