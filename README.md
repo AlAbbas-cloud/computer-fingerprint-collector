@@ -1,3 +1,8 @@
+/ |  _ __  _ __   ___  | | _ __ ___  | | ___  _ __
+| |   / _ \| ' \| ' \ / _ \/ | | '/ _ \/ | / _ \| '|
+| || () | | | | | | |  /\ \ || | |  / (| || () | |
+\____\/|| ||| ||\||/\||  \|\|\\_/||
+
 # Computer Fingerprint Collector (Python Automation)
 
 This project implements a Python script for Midtown IT to automatically collect system “fingerprints” from Windows and Linux computers and store them in a central CSV file.
