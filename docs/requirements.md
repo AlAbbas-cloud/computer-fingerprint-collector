@@ -82,7 +82,7 @@ The script outputs a CSV file compatible with Microsoft Excel.
 
 # 7. Approved Solution Summary
 
-**Solution 3 — Scheduled Script + Shared Folder Output**
+**Solution 3 - Scheduled Script + Shared Folder Output**
 
 - Automates data collection  
 - No new infrastructure required  
