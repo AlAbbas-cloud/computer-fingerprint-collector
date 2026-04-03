@@ -1,4 +1,4 @@
-# 🖥️ Computer Fingerprint Collector  
+# Computer Fingerprint Collector  
 ### Automated Processes Algorithmic & Scripting Solution Report  
 **Student:** Ali Abbas  
 **Client:** Midtown IT  
@@ -149,3 +149,123 @@ ENDIF
 
 END
 ```
+
+---
+
+## 5.2 Control Structures Used
+
+### **Sequence**
+Data is collected step‑by‑step in a predictable order.
+
+### **Selection**
+`IF CSV exists` → append  
+`ELSE` → create new file  
+
+### **Iteration**
+Used when scanning existing CSV entries or parsing port lists.
+
+### **Termination**
+Algorithm ends after writing to CSV.
+
+---
+
+## 5.3 Desk Check Summary
+
+Three test cases were evaluated:  
+- **New computer** → CSV created  
+- **Existing computer with changed data** → warnings displayed  
+- **Existing computer unchanged** → no update, early termination  
+
+These behaviours match expected logic. 
+
+---
+
+# 6. Improved Algorithm (Optimised)
+```code
+BEGIN
+
+IF CSV does NOT exist THEN
+CREATE CSV with header
+WRITE new system data
+TERMINATE
+
+LOAD CSV into dictionary (key = computer name)
+
+IF computer exists THEN
+COMPARE new data with stored data
+IF differences found THEN
+DISPLAY warnings
+TERMINATE
+ELSE
+ADD new entry
+WRITE updated CSV
+
+END
+```
+
+---
+
+# 7. Scripting Language & IDE
+
+## 7.1 Python as a Scripting Language
+- Interpreted  
+- Cross‑platform  
+- Easy to read  
+- Large standard library  
+- Ideal for automation  
+
+## 7.2 IDE Used
+- **Visual Studio Code**  
+- Features: debugging, breakpoints, syntax highlighting  
+
+## 7.3 Protocols Used
+- TCP/IP (network checks)  
+- System calls via subprocess  
+
+## 7.4 Python Object Model
+- Functions encapsulate behaviour  
+- Data stored in dictionaries  
+- Modular design  
+
+---
+
+# 8. Python Script (Final Version)
+
+*(Final script is stored in [/src/computer_fingerprint_collector.py](/src/computer_fingerprint_collector.py) and not duplicated here.)*
+
+---
+
+# 9. Testing & Debugging
+
+Testing performed on Windows and Linux systems.  
+Debugging used VS Code breakpoints and console output.  
+Issues identified:  
+- Missing error handling for network failures  
+- Active ports inconsistent on Windows  
+- Internet speed inaccurate using ping  
+
+All issues were resolved in the final script. 
+
+---
+
+# 10. Internal Documentation
+
+All functions include block comments following Midtown IT guidelines:
+
+- Full sentences  
+- No inline comments  
+- Clear purpose statements  
+- Section headers  
+
+---
+
+# 11. User Documentation (Summary)
+
+### Requirements
+- Python 3.x  
+- Admin/root access for port scanning  
+- Internet connection for speed test  
+
+### Running the Script
+
+
