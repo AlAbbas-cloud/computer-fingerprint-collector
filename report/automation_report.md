@@ -267,5 +267,54 @@ All functions include block comments following Midtown IT guidelines:
 - Internet connection for speed test  
 
 ### Running the Script
+```Bash
+python3 computer_fingerprint_collector.py
+```
+
+### Output
+- `computer_fingerprints.csv` created or updated  
+- One row per machine  
+
+---
+
+# 12. Sign‑Off
+
+Approved by:  
+- **Project Manager:** Hadi  
+- **Developer:** Ali Abbas  
+
+Date: 07/06/2025 
+
+---
+
+# 13. Contingency Procedures
+
+### 13.1 Handling Change Requests
+1. Review request  
+2. Assess impact  
+3. Update pseudocode  
+4. Update script  
+5. Test  
+6. Update documentation  
+7. Resubmit for approval  
+
+### 13.2 New IDE Version Released
+1. Install new IDE  
+2. Test compatibility  
+3. Fix warnings/errors  
+4. Update documentation  
+5. Confirm with client  
+
+---
+
+# 14. Test Results Summary
+
+Script was run on three machines (Windows + Linux).  
+All required fields were collected successfully.  
+CSV updated correctly.  
+
+---
+
+# **End of Report**
 
 
