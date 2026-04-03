@@ -51,4 +51,82 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
   - [sample_output.csv](samples/sample_output.csv)  
 - [README.md](README.md)
 
+---
 
+## How to Run the Script
+
+This script collects system and network information and saves the results into a CSV file.
+
+### **1. Requirements**
+- Python 3.x  
+- No third‑party libraries  
+- Permission to run Python scripts  
+
+---
+
+### **2. Download or Clone the Repository**
+
+```bash
+git clone https://github.com/AlAbbas-cloud/computer-fingerprint-collector.git
+cd computer-fingerprint-collector/src
+```
+---
+
+### **3. Run the Script**
+**Windows**
+```bash
+python computer_fingerprint_collector.py
+```
+**Linux / macOS**
+```bash
+python3 computer_fingerprint_collector.py
+```
+---
+
+### **4. Output Location**
+A file named:
+```code
+computer_fingerprints.csv
+```
+will be created or updated in the same folder.
+
+Each run appends a new row containing:
+
+- Computer name
+- IP address
+- MAC address
+- Processor model
+- Operating system
+- System time
+- Internet speed
+- Active ports
+- Unique ID
+
+---
+
+## Script Flow Diagram (Mermaid)
+
+```Mermaid
+flowchart TD
+
+    A([main]) --> B["Collect System Info<br/>get_system_info()"]
+    A --> C["Collect Network Info<br/>get_network_info()"]
+    A --> D["Test Internet Speed<br/>test_internet_speed()"]
+    A --> E["Get Unique ID<br/>get_unique_id()"]
+
+    B --> F["Merge Data"]
+    C --> F
+    D --> F
+    E --> F
+
+    F --> G["Validate Data<br/>validate_data()"]
+    G --> H["Sanitise Data<br/>sanitise_data()"]
+
+    H --> I{"CSV Exists?"}
+
+    I -->|Yes| J["Append to CSV<br/>append_to_csv()"]
+    I -->|No| K["Create CSV + Write Header<br/>write_new_csv()"]
+
+    J --> L([End])
+    K --> L([End])
+```
