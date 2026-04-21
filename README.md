@@ -6,7 +6,7 @@ It was developed as part of the **Midtown IT Automation & Scripting Assessment**
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Project Overview](#computer-fingerprint-collector)
 - [Features](#features)
